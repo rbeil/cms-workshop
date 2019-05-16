@@ -1,4 +1,6 @@
-# This is my geometry analysis code
+"""
+Functions and script for geometry analysis
+"""
 import numpy
 import os
 import sys
