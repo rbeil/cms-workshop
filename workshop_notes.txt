@@ -1,0 +1,41 @@
+Python assertions
+	a = 3
+	b = 3
+	assert a = b
+if true, nothing happens
+if false, get an error
+
+atom1 = [0,0,0]
+atom2 = [0,0,1]
+assert geometry_anaylsis.calculate_distance(atom1, atom2) == 1
+
+if true, nothing happens
+if false, get an error
+
+pytest is a testing framework
+	- test each python function in our script
+	- unit test
+install pytest
+	conda install pytest-cov
+
+1. create a new file
+	- must start with test
+	- must be saved in the directory with the python script
+2. create a test function
+	- must start with test
+	- import function to be tested
+	- assert answer
+3. run pytest by typing pytest and hitting enter in terminal
+
+pytest is running the test functions, and raises an error if something is unexpected
+pytest -v gives the name of the test and whether it passed or failed
+
+pytest has a lot of features
+	- can test exceptions and errors
+
+Git and Github are two different things
+	- Git is for version control/keeping track of work
+
+git config --global user.name "Name"
+git config --global user.email "Email"
+git config --global core.editor "vim"
